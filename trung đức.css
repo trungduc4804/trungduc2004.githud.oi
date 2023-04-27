@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Constantia;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 239, 252);
+    text-align: center;
+    color: rgb(213, 20, 220)
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 21, 0) ;
+    min-height: 30px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: rgb(51, 255, 0)	;
+    color: orangered;
+}
+label.logo{
+    font-size: 30px;
+    color: rgb(212, 23, 23);
+    margin: 0 100px;
+    line-height: 50px;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0px 15px;
+}
+nav ul li a.active,a:hover{
+    background: rgb(255, 0, 174);
+}
+.left{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(255, 0, 238);
+    float: left;
+}
+.home img{
+    width: 200px;
+    height:200px;
+    border-radius: 550px;
+    
+}
+.content{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(224, 78, 93);
+    float: left;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.right{
+    width: 25%; 
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+    
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(93, 145, 144);
+    clear: both;
+    text-align: center;
+    color: white;
+}
